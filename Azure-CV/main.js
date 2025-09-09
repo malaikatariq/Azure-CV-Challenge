@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   getVisitCount();
 });
 
-const functionApi = "";
+const functionApi = "https://visitcounter-c3eycyhnazf7a4ap.westeurope-01.azurewebsites.net/api/plus-one?code=TKHvJMtGzfrVim5rWw06ePDnf7jRoa4oGY5jMMYfQ4PKAzFu87AC8Q==";
 
 const getVisitCount = () => {
   fetch(functionApi)
