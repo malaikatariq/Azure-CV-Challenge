@@ -30,6 +30,8 @@ This project demonstrates how to host a personal CV site with **real-time visito
    |   + Function App) |
    +-------------------+
 
+   
+
 The project uses the following Azure components:
 
 1. **Azure Static Web Apps** - Hosts the static website and deploys via GitHub Actions.
@@ -38,7 +40,7 @@ The project uses the following Azure components:
 
 ---
 
-## Features
+## Key Features
 
 - **Azure Functions** → Serverless API to fetch/update visitor count.
 
