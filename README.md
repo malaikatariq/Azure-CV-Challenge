@@ -2,7 +2,7 @@
 
 This repository contains code and instructions for deploying a cloud-based CV website on **Azure**, complete with a **visitor counter** implemented using **Azure Functions** and **Cosmos DB** to track visits in real-time. This README provides setup steps, prerequisites, and an overview of the architecture.
 
-## Project Website: [**Link:**](https://polite-bush-025aa2b03.1.azurestaticapps.net/)
+## Project Website: [Link](https://polite-bush-025aa2b03.1.azurestaticapps.net/)
 
 
 ---
@@ -95,3 +95,10 @@ The project uses the following Azure components:
 - **Optimizations**: Explore caching mechanisms to improve performance.
 
 ## Screenshots:
+![Static WebApp](https://github.com/malaikatariq/Azure-CV-Challenge/blob/main/assets/Static-Web.png)
+![Cosmos Db1](https://github.com/malaikatariq/Azure-CV-Challenge/blob/main/assets/Cosmos1.png)
+![Cosmos Db2](https://github.com/malaikatariq/Azure-CV-Challenge/blob/main/assets/Cosmos2.png)
+![Container](https://github.com/malaikatariq/Azure-CV-Challenge/blob/main/assets/Conatiner.png)
+![FunctionApp](https://github.com/malaikatariq/Azure-CV-Challenge/blob/main/assets/FunctionApp.png)
+![HTTP-Function](https://github.com/malaikatariq/Azure-CV-Challenge/blob/main/assets/Http-Function.png)
+![CV](https://github.com/malaikatariq/Azure-CV-Challenge/blob/main/assets/CV.png)
