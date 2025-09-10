@@ -14,23 +14,7 @@ This project demonstrates how to host a personal CV site with **real-time visito
 ---
 
 ## Architecture
-
-+-------------------+       +-------------------+       +---------------------+
-|                   |       |                   |       |                     |
-|   Static Website  | ----> |   Azure Function  | ----> |   Azure Cosmos DB   |
-| (HTML + JS, GitHub|       | (HTTP Triggered)  |       | (Visitor Counter)   |
-|   Pages / Blob)   |       |                   |       |                     |
-+-------------------+       +-------------------+       +---------------------+
-          |
-          | CI/CD
-          v
-   +-------------------+
-   |   GitHub Actions  |
-   |  (Deploy Website  |
-   |   + Function App) |
-   +-------------------+
-
-   
+![Diagram](https://github.com/malaikatariq/Azure-CV-Challenge/blob/main/assets/Diagram.png)
 
 The project uses the following Azure components:
 
