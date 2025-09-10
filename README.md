@@ -106,4 +106,4 @@ The project uses the following Azure components:
 ![Container](https://github.com/malaikatariq/Azure-CV-Challenge/blob/main/assets/Conatiner.png)
 ![FunctionApp](https://github.com/malaikatariq/Azure-CV-Challenge/blob/main/assets/FunctionApp.png)
 ![HTTP-Function](https://github.com/malaikatariq/Azure-CV-Challenge/blob/main/assets/Http-Function.png)
-![CV](https://github.com/malaikatariq/Azure-CV-Challenge/blob/main/assets/CV.png)
+![CV](https://github.com/malaikatariq/Azure-CV-Challenge/blob/main/assets/cv.png)
