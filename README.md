@@ -15,6 +15,21 @@ This project demonstrates how to host a personal CV site with **real-time visito
 
 ## Architecture
 
++-------------------+       +-------------------+       +---------------------+
+|                   |       |                   |       |                     |
+|   Static Website  | ----> |   Azure Function  | ----> |   Azure Cosmos DB   |
+| (HTML + JS, GitHub|       | (HTTP Triggered)  |       | (Visitor Counter)   |
+|   Pages / Blob)   |       |                   |       |                     |
++-------------------+       +-------------------+       +---------------------+
+          |
+          | CI/CD
+          v
+   +-------------------+
+   |   GitHub Actions  |
+   |  (Deploy Website  |
+   |   + Function App) |
+   +-------------------+
+
 The project uses the following Azure components:
 
 1. **Azure Static Web Apps** - Hosts the static website and deploys via GitHub Actions.
@@ -25,9 +40,13 @@ The project uses the following Azure components:
 
 ## Features
 
-- **Static CV Hosting**: Hosted on Azure Static Web Apps for fast, reliable delivery.
-- **Visitor Counter**: Tracks and displays real-time visitor count.
-- **Automatic Deployments**: GitHub Actions handles CI/CD for seamless updates.
+- **Azure Functions** → Serverless API to fetch/update visitor count.
+
+- **Azure Cosmos DB** → Stores visitor count in JSON format.
+
+- **JavaScript (Frontend)** → Calls the function and updates UI.
+
+- **GitHub Actions** → CI/CD pipeline for deployments.
 
 ---
 
