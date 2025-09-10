@@ -2,7 +2,7 @@
 
 This repository contains code and instructions for deploying a cloud-based CV website on **Azure**, complete with a **visitor counter** implemented using **Azure Functions** and **Cosmos DB** to track visits in real-time. This README provides setup steps, prerequisites, and an overview of the architecture.
 
-[**Website Link:**](https://polite-bush-025aa2b03.1.azurestaticapps.net/)
+## Project Website: [**Link:**](https://polite-bush-025aa2b03.1.azurestaticapps.net/)
 
 
 ---
